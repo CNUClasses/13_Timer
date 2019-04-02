@@ -28,9 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public void startTimer(View view) {
         Intent myIntent = new Intent(this,AlarmAct.class);
         alarmIntent = PendingIntent.getActivity(getApplicationContext(), MY_PERSONAL_CODE, myIntent,PendingIntent.FLAG_ONE_SHOT);
-
         alarmMgr.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, SystemClock.elapsedRealtime()+ TWO_SECONDS,alarmIntent);
-
     }
 
     public void stopTimer(View view) {
