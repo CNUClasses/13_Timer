@@ -6,13 +6,13 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.SystemClock;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final long TWO_SECONDS = 5000;
+    private static final long TWO_SECONDS = 2000;
     private static final int MY_PERSONAL_CODE = 42;
     private AlarmManager alarmMgr;
     private PendingIntent alarmIntent;

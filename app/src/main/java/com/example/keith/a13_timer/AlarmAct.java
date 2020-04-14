@@ -1,6 +1,6 @@
 package com.example.keith.a13_timer;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class AlarmAct extends AppCompatActivity {
